@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,29 +9,50 @@
 
   <body>
 
-    <nav>
-      <ul>
-        <li><a href="#">Gmail</a></li>
-        <li><a href="#">Images</a></li>
-        <li><img src="img/dotgrid.svg" alt="dotgrid"></li>
-        <li><img src="img/perfilPhoto.jpg" alt="Perfil photo" /></li>
-      </ul>
-    </nav>
+    <div class="cont">
 
-    <img src="img/googlelogo.png" alt="Home image Google" />
+      <div class="header">
+        <ul>
+          <li><a href="#">Gmail</a></li>
+          <li><a href="#">Images</a></li>
+          <li><img src="img/dotgrid.svg" alt="dotgrid" /></li>
+          <li><img src="img/perfilPhoto.jpg" alt="Perfil photo" /></li>
+        </ul>
+      </div>
 
-    <div class="searchcontainer">
-      <img class="lens" src="img/lens.svg"/>
-      <div></div>
-      <img class="microphone" src="img/microphone.svg" alt="microphone">
-      <img class="camera" src="img/camera.svg" alt="camera">
+      <div class="central">
+        <div class="googleimg">
+          <img src="img/googlelogo.png" alt="Home image Google" />
+        </div>
+
+        <div class="searchcontainer">
+          <img class="lens" src="img/lens.svg" />
+          <img class="microphone" src="img/microphone.svg" alt="microphone" />
+          <img class="camera" src="img/camera.svg" alt="camera" />
+        </div>
+
+        <div class="inputsbox">
+          <input class="inputs" type="submit" value="Buscar en Google" />
+          <input class="inputs" type="submit" value="Voy a tener suerte" />
+        </div>
+      </div>
+
+      <div class="footerbar">
+        <div class="country">Chile</div>
+        <div>
+          <a href="#">Sobre Google</a>
+          <a href="#">Publicidad</a>
+          <a href="#">Negocios</a>
+          <a href="#">Como funciona la busqueda</a>
+        </div>
+
+        <div>
+          <a href="#">Privacidad</a>
+          <a href="#">Condiciones</a>
+          <a href="#">Configuración</a>
+        </div>
+      </div>
     </div>
-
-    <div class="inputsbox">
-      <input class="inputs" type="submit" value="Buscar en Google"/>
-      <input class="inputs" type="submit" value="Voy a tener suerte"/>
-    </div>
-
-
+    
   </body>
 </html>
