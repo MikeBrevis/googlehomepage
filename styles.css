@@ -1,17 +1,71 @@
-li{
+li {
     display:inline-block;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: flex-end;
 }
 
-nav ul{
+nav ul {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
+
+.lens {
+    filter: invert(66%) sepia(7%) saturate(291%) hue-rotate(169deg) brightness(96%) contrast(88%);
+}
+
+.searchcontainer {
+    position: relative;
+    width: 584px;
+    height: 86px;
+    height: 40px;
+    border:1px solid #5f6368;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.inputsbox {
+    padding-top: 22px;
+}
+
+
+.lens {
+    position: absolute;
+    left: 10px;
+    width: 25px;
+    height: 25px;
+        
+}
+
+.microphone {
+    position: absolute;
+    right: 10px;
+    width: 25px;
+    height: 25px;
+        
+}
+
+.camera {
+    position: absolute;
+    right: 50px;
+    width: 25px;
+    height: 25px;
+}
+
+.inputs {
+    border-radius: 4px;
+    background-color: #e8eaed;
+    font-family: sans-serif;
+    padding: 5px 15px;
+}
+
+
+
