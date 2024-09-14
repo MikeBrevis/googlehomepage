@@ -1,0 +1,15 @@
+.cont {
+    height: 100vh;
+}
+
+.header {
+    height: 10vh;
+}
+
+.central {
+    height: 80vh;
+}
+
+.footer {
+    height: 10vh;
+}

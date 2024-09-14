@@ -5,21 +5,27 @@ body {
     color: #e8eaed;
 }
 
-li {
-    display:inline-block;
-}
-
-.header {
-    display: flex;
-    justify-content: flex-end;
-}
-
-ul {
-    list-style: none;
+a:link, a:visited, a:hover, a:active {
+color: #e8eaed;
 }
 
 a {
     text-decoration: none;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: right;
+}
+
+.header li {
+    margin-right: 17px;
+}
+
+.perfilphoto {
+    border-radius: 50%;
 }
 
 .lens {
@@ -29,7 +35,6 @@ a {
 .searchcontainer {
     position: relative;
     width: 584px;
-    height: 86px;
     height: 40px;
     border:1px solid #5f6368;
     border-radius: 24px;
@@ -62,21 +67,34 @@ a {
 }
 
 .inputs {
+    background-color: #303134;
+    border: 1px solid #303134;
+    color: #e8eaed;
     border-radius: 4px;
-    background-color: #e8eaed;
-    font-family: sans-serif;
-    padding: 5px 15px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    user-select: none;
 }
 
 .footerbar {
+    margin-left: 35px;
     display: flex;
     justify-content:space-between;
     padding: 0 20px;
+    align-items: center;
+    height: 5vh;
 }
 
 .country {
     padding: 15px 30px;
     border-bottom: 1px solid #5f6368;
+    background-color: #28292a
 }
 
 .googleimg {
@@ -91,18 +109,18 @@ a {
     justify-content: center;
 }
 
-.cont {
-    height: 100%;
-}
-
 .header {
-    height: 10%;
+    height: 25vh;
 }
 
 .central {
-    height: 80%;
+    height: 60vh;
 }
 
-.footerbar {
-    height: 10%;
+.googleimg {
+    padding-bottom: 30px;
+}
+
+.elements a {
+    margin-left: 20px;
 }
